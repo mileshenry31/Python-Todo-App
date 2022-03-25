@@ -19,6 +19,6 @@ def add_clicked():
 
 
 
-ttk.Button(frm, text='Add a todo', command=add_clicked)
+ttk.Button(frm, text='Add a todo', command=add_clicked).grid(column=0, row=0)
 
 root.mainloop()
